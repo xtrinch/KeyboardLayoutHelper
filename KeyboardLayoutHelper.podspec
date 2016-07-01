@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KeyboardLayoutHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KeyboardLayoutHelper.'
+  s.summary          = 'Keyboard layout constraint class to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Keyboard layout constraint class to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it. Usage is very simple, just apply the KeyboardLayoutConstraint class to the bottom constraint of UIView or its subclass and the view will move up and down with the keyboard.
+
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/KeyboardLayoutHelper'
+  s.homepage         = 'https://github.com/xtrinch/KeyboardLayoutHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mojca Rojko' => 'mojca.rojko@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/KeyboardLayoutHelper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/xTrinch/KeyboardLayoutHelper.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

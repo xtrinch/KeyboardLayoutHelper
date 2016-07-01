@@ -1,0 +1,16 @@
+PODS:
+  - KeyboardLayoutHelper (0.1.0)
+
+DEPENDENCIES:
+  - KeyboardLayoutHelper (from `../`)
+
+EXTERNAL SOURCES:
+  KeyboardLayoutHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KeyboardLayoutHelper: 42dd233e0377417cbdf5e53d0861c842fe0f7298
+
+PODFILE CHECKSUM: 8706ffd9423836d96b76a4b57363d43b979d5124
+
+COCOAPODS: 1.0.1

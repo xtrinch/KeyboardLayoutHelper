@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tapper = UITapGestureRecognizer(target: self.view, action:#selector(UIView.endEditing(_:)))
+        tapper.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tapper)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
