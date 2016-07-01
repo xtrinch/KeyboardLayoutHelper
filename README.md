@@ -7,6 +7,9 @@
 
 Provides a **layout constraint class** to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it. Extremely simple usage as all you have to do is apply the provided KeyboardLayoutConstraint class in interface builder.
 
+## Requirements
+
+Version 0.0.1 is written in Swift 2.2, Swift 3 support is planned.
 
 ## Example
 
@@ -38,6 +41,8 @@ pod "KeyboardLayoutHelper"
 ## Author
 
 Mojca Rojko, mojca.rojko@gmail.com
+
+KeyboardLayoutConstraint class borrowed and made into a cocoapod from: https://github.com/MengTo/Spring/blob/master/Spring/KeyboardLayoutConstraint.swift
 
 ## License
 
