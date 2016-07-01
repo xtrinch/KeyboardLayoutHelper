@@ -21,7 +21,7 @@ Screenshots of the example application with sample login and register pages:
 
 ## Usage
 
-To prevent views obscuring your keyboard, make an auto layout bottom constraint, **give it a class of KeyboardLayoutConstraint** in module KeyboardLayoutHelper and the class will do the work necessary to increase it to accomodate appearing and disappearing keyboard.
+To prevent views obscuring your keyboard, make an auto layout bottom constraint, **give it a class of KeyboardLayoutConstraint** in module KeyboardLayoutHelper and the class will do the work necessary to increase it to accomodate appearing and disappearing keyboard. See example project on examples how to use it.
 
 ## Installation
 
