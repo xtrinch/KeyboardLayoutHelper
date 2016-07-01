@@ -12,9 +12,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Screenshots of the example application with sample login and register pages:
 
 **Vertically centered views:**
+
 <img src='https://raw.githubusercontent.com/xTrinch/KeyboardLayoutHelper/master/Graphics/login.gif' alt='Moving content from under the keyboard in iOS / Swift'>
 
 **Scroll view:**
+
 <img src='https://raw.githubusercontent.com/xTrinch/KeyboardLayoutHelper/master/Graphics/register.gif' alt='Moving content from under the keyboard in iOS / Swift'>
 
 ## Usage
