@@ -1,9 +1,12 @@
 # KeyboardLayoutHelper
 
-[![CI Status](http://img.shields.io/travis/Mojca Rojko/KeyboardLayoutHelper.svg?style=flat)](https://travis-ci.org/xtrinch/KeyboardLayoutHelper)
+[![CI Status](http://img.shields.io/travis/xtrinch/KeyboardLayoutHelper.svg?style=flat)](https://travis-ci.org/xtrinch/KeyboardLayoutHelper)
 [![Version](https://img.shields.io/cocoapods/v/KeyboardLayoutHelper.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutHelper)
 [![License](https://img.shields.io/cocoapods/l/KeyboardLayoutHelper.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutHelper)
 [![Platform](https://img.shields.io/cocoapods/p/KeyboardLayoutHelper.svg?style=flat)](http://cocoapods.org/pods/KeyboardLayoutHelper)
+
+Provides a **layout constraint class** to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it. Extremely simple usage as all you have to do is apply the provided KeyboardLayoutConstraint class in interface builder.
+
 
 ## Example
 
