@@ -9,7 +9,7 @@ Provides a **layout constraint class** to help adapt UIView to the appearing key
 
 ## Requirements
 
-Version 0.0.1 is written in Swift 2.2, Swift 3 support is planned.
+Version 0.0.2 supports Swift 3 only. Please use version 0.0.1 if you need support for Swift 2.2.
 
 ## Example
 

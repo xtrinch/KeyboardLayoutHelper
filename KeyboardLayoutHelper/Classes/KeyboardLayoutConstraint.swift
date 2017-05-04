@@ -22,12 +22,12 @@
 
 import UIKit
 
-public class KeyboardLayoutConstraint: NSLayoutConstraint {
+open class KeyboardLayoutConstraint: NSLayoutConstraint {
     
-    private var offset : CGFloat = 0
-    private var keyboardVisibleHeight : CGFloat = 0
+    fileprivate var offset : CGFloat = 0
+    fileprivate var keyboardVisibleHeight : CGFloat = 0
     
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         
         offset = constant

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KeyboardLayoutHelper'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Keyboard layout constraint class to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it.'
 
 # This description is used to generate tags and improve search results.
