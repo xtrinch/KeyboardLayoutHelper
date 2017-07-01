@@ -25,7 +25,7 @@ Screenshots of the example application with sample login and register pages:
 **Scroll view:**
 
 <img src='https://raw.githubusercontent.com/xTrinch/KeyboardLayoutHelper/master/Graphics/register.gif' alt='Moving content from under the keyboard in iOS / Swift'>
-
+ 
 ## Usage
 
 To prevent views obscuring your keyboard, make an auto layout bottom constraint, **give it a class of KeyboardLayoutConstraint** in module KeyboardLayoutHelper and the class will do the work necessary to increase it to accomodate appearing and disappearing keyboard. See example project on examples how to use it.
