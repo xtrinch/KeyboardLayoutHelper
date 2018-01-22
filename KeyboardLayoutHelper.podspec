@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KeyboardLayoutHelper'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Keyboard layout constraint class to help adapt UIView to the appearing keyboard, so the textfields dont get lost underneath it.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Keyboard layout constraint class to help adapt UIView to the appearing keyboard,
   s.author           = { 'Mojca Rojko' => 'mojca.rojko@gmail.com' }
   s.source           = { :git => 'https://github.com/xTrinch/KeyboardLayoutHelper.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'KeyboardLayoutHelper/Classes/**/*'
   
